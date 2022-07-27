@@ -1,3 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+box.addEventListener('mouseover', function handleMouseOver() {
+    box.style.color = 'red';
+  });
+
+  box.addEventListener('mouseout', function handleMouseOut() {
+    box.style.color = 'black';
+  });
